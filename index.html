@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma login page or sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.svg">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="loader">
+        <img src="images/logo.svg" alt="">
+        <h1>0%</h1>
+    </div>
+<header id="header">
+    <img src="images/logo.svg" alt="This is an image">
+    
+    <button id="mybtn">Change Mode</button>
+</header>
+    <main id="main">
+        <div id="card" class="card">
+            <div class="txt">
+                <h1>Sign in to Figma</h1>
+            </div>
+
+            <div class="butons">
+                <button id="googlebutton" class="firstbtn btn">
+                    <img src="images/google.svg" alt="">
+                    Continue to Google
+                </button>
+                <div  class="or">
+                <span id="spang">or</span>
+            </div>
+                <input   type="text" class="btn  inputs" placeholder="Email">
+                <input type="text" class="btn  inputs" placeholder="Password">
+                <button id="btn2" class="btn lstbtn">Login</button>
+                <div id="lastsection" class="lestsection">
+                    <a class="letsection" href="#">Use single sign-on</a>
+                    <a class="lestsection" href="#">Reset password</a>
+                </div>
+                <div class="las">
+                    <span id="spanlast">No account?</span><a href="#">Create one</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
